@@ -2,6 +2,7 @@
   <div id="app">
     <router-view/>
     <div>
+      <Home/>
       <Footer/>
     </div>
   </div>
@@ -11,9 +12,11 @@
 
 
 import Footer from "@/components/Footer";
+import Home from "@/pages/Home";
 export default {
   name: 'App',
   components: {
+    Home,
     Footer,
   }
 }
