@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view/>
+    <Home/>
   </div>
 </template>
 
@@ -9,9 +9,11 @@
 
 // import Footer from "@/components/Footer";
 // import Home from "@/pages/Home";
+import Home from "@/pages/Home";
 export default {
   name: 'App',
   components: {
+    Home
     // Home,
     // Footer,
   }
