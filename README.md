@@ -1,4 +1,4 @@
-# wroclwa-przystepnie
+# wroclaw-przystepnie
 
 ## Project setup
 ```
