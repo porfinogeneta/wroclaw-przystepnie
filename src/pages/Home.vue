@@ -58,6 +58,9 @@
     <section class="bg-indigo-50">
       <Patrons/>
     </section>
+    <section>
+      <Footer/>
+    </section>
   </div>
 
 </template>
@@ -68,10 +71,11 @@
 import Navbar from "@/components/Navbar";
 import Slider from "@/components/Slider";
 import Patrons from "@/components/Patrons";
+import Footer from "@/components/Footer";
 
 export default {
 name: "Home",
-  components: {Patrons, Slider, Navbar},
+  components: {Footer, Patrons, Slider, Navbar},
   setup() {
 
 
