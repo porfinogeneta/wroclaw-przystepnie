@@ -20,10 +20,10 @@
            class="h-1/3 z-50 sticky top-0 py-3 m-0 text-4xl bg-gradient-to-r from-gray-800 to-gray-600 w-full text-blue-50 z-99">
         <h1 class="text-left mx-2">Jaki jest cel naszego projektu?</h1>
       </div>
-      <div class="w-full grid grid-cols-1 md:grid-cols-3 text-right gap-6 p-10" style="min-height: 450px">
+      <div class="w-full grid grid-cols-1 md:grid-cols-3 text-right gap-10 p-10" style="min-height: 450px">
         <section
             class="w-full h-full z-0 text-center shadow-md rounded-2xl bg-blue-50 p-4 transform hover:scale-110 transition duration-500">
-          <div class="w-full h-full ">
+          <div class="min-w-full min-h-full ">
             <p class="text-3xl">Poprawa wiedzy o Wrocławiu</p>
             <article class="w-full min-h-full text-2xl p-4" style="display: flex; justify-content: center; align-items: center">
               r sit amet, consrem ipsum dolor s amet, con amet, conit amet, conssectetur adipiscing elit. Nullam erat lectus, sodales quis lacus nec, fermentum sagittis turpis. Maecenas semper vel quam et pellentesque. Aliquam erat volutpat. Donec posuere iaculis tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum scelerisque leo, sit amet maximus diam luctus vitae. Maecenas sapien odio, aliquam bibendum arcu in, volutpat rhoncus est.
@@ -31,13 +31,19 @@
           </div>
         </section>
         <section class="z-0 text-center shadow-md rounded-2xl bg-blue-50 p-4 transform hover:scale-110 transition duration-500">
-          <div class="max-w-full max-h-full ">
-            <p>Zmiana postrzegania turystyki</p>
+          <div class="min-w-full min-h-full ">
+            <p class="text-3xl">Zmiana postrzegania turystyki</p>
+            <article class="w-full min-h-full text-2xl p-4" style="display: flex; justify-content: center; align-items: center">
+              r sit amet, consrem ipsum dolor s amet, con amet, conit amet, conssectetur adipiscing elit. Nullam erat lectus, sodales quis lacus nec, fermentum sagittis turpis. Maecenas semper vel quam et pellentesque. Aliquam erat volutpat. Donec posuere iaculis tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum scelerisque leo, sit amet maximus diam luctus vitae. Maecenas sapien odio, aliquam bibendum arcu in, volutpat rhoncus est.
+            </article>
           </div>
         </section>
         <section class="z-0 text-center shadow-md rounded-2xl bg-blue-50 p-4 transform hover:scale-110 transition duration-500">
-          <div class="max-w-full max-h-full ">
-            <p>Rozrywka</p>
+          <div class="min-w-full min-h-full ">
+            <p class="text-3xl">Rozrywka</p>
+            <article class="w-full min-h-full text-2xl p-4" style="display: flex; justify-content: center; align-items: center">
+              r sit amet, consrem ipsum dolor s amet, con amet, conit amet, conssectetur adipiscing elit. Nullam erat lectus, sodales quis lacus nec, fermentum sagittis turpis. Maecenas semper vel quam et pellentesque. Aliquam erat volutpat. Donec posuere iaculis tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum scelerisque leo, sit amet maximus diam luctus vitae. Maecenas sapien odio, aliquam bibendum arcu in, volutpat rhoncus est.
+            </article>
           </div>
         </section>
       </div>
