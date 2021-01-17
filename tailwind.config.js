@@ -1,6 +1,5 @@
 module.exports = {
-  purge: ["../pages/**/*.vue",
-    "../components/**/*.vue",],
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {translate: ['motion-safe'],
