@@ -1,4 +1,4 @@
-<template class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
+<template>
   <div id="app">
     <router-view/>
   </div>
