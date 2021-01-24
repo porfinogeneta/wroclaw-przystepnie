@@ -6,17 +6,21 @@
     >
       <transition name="fade">
         <div v-if="CurrentSlide === index" class="w-full" >
-          <p
-              class="absolute p-10 text-4xl text-white text-5xl"
-          >{{ image.text }}
-          </p>
+          <div class="w-full absolute" style="height: 60vh">
+            <div class="w-full h-full flex justify-left items-center">
+              <p class="font-black p-10 md:text-6xl text-4xl text-white"
+              >{{ image.text }}
+              </p>
+            </div>
+
+          </div>
           <img class="w-full object-cover" style="height: 70vh"
               v-bind:src="image.link">
         </div>
       </transition>
     </section>
-    <div class="" style="height: 60vh">
-      <div class="absolute bottom-0 flex right-1/2">
+    <div class="absolute w-full" style="height: 60vh">
+      <div class="w-full h-full flex justify-center items-end">
         <div
             v-for="(image, index) in backgroundsToDisplay"
             :key="image"
@@ -52,8 +56,7 @@ name: "Slider",
     onMounted(() => {
       Interval.value = setInterval(() => {
         CurrentSlide.value = CurrentSlide.value === 2 ? CurrentSlide.value = 0 : CurrentSlide.value + 1
-        console.log(CurrentSlide.value)
-      }, 2000);
+      }, 3000);
     })
 
     onBeforeUnmount(() => {

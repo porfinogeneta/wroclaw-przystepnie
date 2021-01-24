@@ -2,7 +2,7 @@
   <h1 class="text-center text-5xl pt-5">Nasi patroni</h1>
   <div class=" grid grid-cols-1 md:grid-cols-3 text-right gap-4 p-10" style="min-height: 450px">
     <section class="text-center shadow-md rounded-2xl bg-blue-50 p-4 transform hover:scale-110 transition duration-500" >
-      Jarosław Kaczyński
+      <h1 class="text-2xl">Jarosław Kaczyński</h1>
       <div class="max-w-full max-h-full ">
         <img
             class="p-5 max-w-full max-h-full relative z-50"
@@ -12,7 +12,7 @@
       </div>
     </section>
     <section class="text-center shadow-md rounded-2xl bg-blue-50 p-4 transform hover:scale-110 transition duration-500" >
-      Jarosław Kaczyński
+      <h1 class="text-2xl">Jarosław Kaczyński</h1>
       <div class="max-w-full max-h-full ">
         <img
             class="p-5 max-w-full max-h-full relative z-50"
@@ -22,7 +22,7 @@
       </div>
     </section>
     <section class="text-center shadow-md rounded-2xl bg-blue-50 p-4 transform hover:scale-110 transition duration-500" >
-      Jarosław Kaczyński
+      <h1 class="text-2xl">Jarosław Kaczyński</h1>
       <div class="max-w-full max-h-full ">
         <img
             class="p-5 max-w-full max-h-full relative z-50"
